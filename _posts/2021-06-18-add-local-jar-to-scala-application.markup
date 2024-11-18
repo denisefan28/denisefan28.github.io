@@ -2,7 +2,7 @@
 layout: post
 title:  "Load GraphFrame jar into Scala Application"
 date:   2021-06-18 17:00:26 +0800
-categories: Tips
+categories: Spark, GraphX
 ---
 
 # GraphX to GraphFrame
