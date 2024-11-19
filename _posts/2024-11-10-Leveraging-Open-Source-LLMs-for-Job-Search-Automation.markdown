@@ -38,6 +38,6 @@ Considering compatibility with existing systems and workflows, having LLMs gener
 
 
 # References
-* https://til.simonwillison.net/llms/llama-cpp-python-grammars
-* https://github.com/ggerganov/llama.cpp/blob/master/grammars/json.gbnf
-* https://github.com/ggerganov/llama.cpp/blob/master/examples/json_schema_to_grammar.py
+* [llama.cpp python grammar](https://til.simonwillison.net/llms/llama-cpp-python-grammars)
+* [llama.cpp grammar json file](https://github.com/ggerganov/llama.cpp/blob/master/grammars/json.gbnf)
+* [llama.cpp tool for grammar](https://github.com/ggerganov/llama.cpp/blob/master/examples/json_schema_to_grammar.py)
