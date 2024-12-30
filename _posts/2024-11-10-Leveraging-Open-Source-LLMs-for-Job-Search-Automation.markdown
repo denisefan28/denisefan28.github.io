@@ -8,7 +8,7 @@ categories: LLM, JobSearch
 # Co-op Job Search: Bye-bye for Now!
 It has been a while since I landed my co-op postion at the end of October, and it feels amazing to finally put that exhausting job hunt on pause until April next year.
 
-At first, I tried to lean on the power of LLMs to spped things up. In fact, it wasn't some magical cure-all, but it did save me a good chunk of time here and there.
+At first, I tried to lean on the power of LLMs to speed things up. In fact, it wasn't some magical cure-all, but it did save me a good chunk of time here and there.
 
 # Exploring LLMs for Resume Optimization
 Before diving in, I did some research on how people use LLMs to optimize their resumes. The approach is pretty straightforward: you provide your existing resume and the target job description as inputs, then use prompts to guide the LLM in tailoring your resume to fit the specific postition.
