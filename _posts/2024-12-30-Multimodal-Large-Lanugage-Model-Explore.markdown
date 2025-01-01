@@ -9,11 +9,11 @@ A few months ago, I started brainstorming ideas for my eco-op project. Consideri
 
 My initial thought was to use a locally served language model, such as Ollama, which should not pose any issues. The experience can be similar to gpt4all. While gpt4all offers a pure text chat experience, I still need text-to-voice and voice-to-text modules to support basic voice chat functionality.
 
-![Alt text](../_imgs/3-1.png)
+![Alt text](/assets/images/3-1.png)
 
 When we initiate a conversation, we create a session and manage it by maintaining the session data. Naturally, this involves adding a service to the architecture for session-level management. Additionally, this service can host the text-to-voice and voice-to-text conversion modules.
 
-![Alt text](../_imgs/3-2.png)
+![Alt text](/assets/images/3-2.png)
 
 It seems sufficient, but it's not good enough. The voice chat experience is different from text chat. A bunch of text messages are sent to the service, then the service concatenates the text messages with prompts and sends them to the LLM. After the LLM generates the response text, the message is sent back to the client side. It's acceptable to wait to process a large amount of text messages. To me, it's totally acceptable, but it's not acceptable for voice applications.
 
@@ -35,7 +35,7 @@ After sucessfully create the service API. I need to update my API key to RTVI ex
 - [rtvi-client-web](https://github.com/denisefan28/rtvi-client-web)
 
 
-![Alt text](../_imgs/3-3.png)
+![Alt text](/assets/images/3-3.png)
 
 Launch the backend service (rtvi-infra-examples) and then start the client UI (rtvi-client-web). In the end I can succssfully start the demo project.
 
